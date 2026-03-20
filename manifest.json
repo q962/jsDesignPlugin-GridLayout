@@ -1,0 +1,16 @@
+{
+  "name": "应用网格布局",
+  "id": "1125696388984041003",
+  "api": "1.0.0",
+  "main": "code.js",
+  "menu": [
+    {
+      "name": "拉伸放置",
+      "command": "to-fill"
+    },
+    {
+      "name": "居中放置",
+      "command": "to-center"
+    }
+  ]
+}
