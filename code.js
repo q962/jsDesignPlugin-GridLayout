@@ -3,6 +3,9 @@
     const to_fill = jsDesign.command == "to-fill"
     const to_center = jsDesign.command == "to-center"
 
+    if (!to_fill && !to_center)
+        to_center = true; // 不知道为什么，不会弹出菜单
+
     for (const node of jsDesign.currentPage.selection) {
 
         if (!node.layoutGrids || node.layoutGrids.length == 0)
